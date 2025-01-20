@@ -19,7 +19,11 @@ public class Game {
     private String platforms;
     private Double score;
     private String imgUrl;
+
+    @Column(columnDefinition = "TEXT") // Tipo texto não VARCHAR de 255 caracteres
     private String shortDescription;
+
+    @Column(columnDefinition = "TEXT") // Tipo texto não VARCHAR 255
     private String longDescription;
 
     public Game() {
