@@ -1,4 +1,4 @@
-package com.dihcoder.dslist.dto;
+package com.dihcoder.dslist.dtos;
 
 import com.dihcoder.dslist.entities.Game;
 import lombok.Getter;
