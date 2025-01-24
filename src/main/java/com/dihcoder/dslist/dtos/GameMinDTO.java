@@ -1,6 +1,7 @@
 package com.dihcoder.dslist.dtos;
 
 import com.dihcoder.dslist.entities.Game;
+import com.dihcoder.dslist.projections.GameMinProjection;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
